@@ -1,0 +1,51 @@
+:root{
+    --firstColor:rgb(255, 255, 255);
+    --secondColor:indigo;
+}
+.mobiles{
+    width:100%;
+}
+.mobiles table{
+    width:70%;
+    padding:10x;
+    background-color: white;
+    box-shadow:4px 4px 4px white ,-3px -3px 3px white;
+}
+.mobiles table tr{
+    cursor: pointer;
+    height:50px;
+    background-color: var(--firstColor);
+    color: var(--secondColor);
+}
+
+
+.mobiles table tbody tr:hover{
+    background-color:indigo ;
+    color: white;
+}
+.card-text{
+    display: flex;
+    flex-flow: row wrap;
+    width:100%;
+}
+
+.card{
+    background-color: indigo !important;
+    filter: drop-shadow(3px 3px 3px indigo);
+}
+.h5{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.card-text .list-group{
+    width:50%;
+}
+
+.m{
+    margin:50px 0px;
+}
+
+.charts{
+    background-color: whitesmoke;
+}
